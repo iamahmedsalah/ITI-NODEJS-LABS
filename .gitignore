@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# Environment variables (SECRETS - never commit)
+.env
+.env.local
+.env.example
+.env.*.local
+.env.production.local
+
+# Build output
+dist/
+build/
+.tsc-build-info
+tsconfig.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+
+# Vercel
+.vercel/
+
+
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
