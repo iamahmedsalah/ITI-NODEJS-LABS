@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Minimal portfolio site — zero dependencies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":   "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
